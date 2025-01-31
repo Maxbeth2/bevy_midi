@@ -30,12 +30,12 @@ strum = { version = "0.26", features = ["derive"] }
 bevy_mod_picking = "0.20"
 
 [dependencies.bevy]
-version = "0.14"
+version = "0.15.1"
 default-features = false
 features = ["multi_threaded"]
 
 [dev-dependencies.bevy]
-version = "0.14"
+version = "0.15"
 features = ["bevy_core_pipeline","bevy_asset", "bevy_scene", "bevy_render", "bevy_winit", "bevy_gltf", "bevy_ui", "bevy_text", "zstd", "tonemapping_luts", "ktx2", "hdr"]
 default-features = false
 
